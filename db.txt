@@ -1,0 +1,157 @@
+db.hospital.insertMany([
+{
+        "_id" : ObjectId("5f7064a4bb3933408b396d94"),
+        "hId" : "H1",
+        "name" : "Apollo hospital",
+        "location" : "17.398644, 78.484334",
+        "address" : "Plot No. 3-5-874/1 Near, Old MLA Quarters Rd, Hyderguda,Hyderabad,Telangana 500029",
+        "contactNo" : "040-23231380"
+},
+{
+        "_id" : ObjectId("5f7064a4bb3933408b396d95"),
+        "hId" : "H2",
+        "name" : "Ruby Hall Clinic Wanowrie",
+        "location" : "18.485870, 73.905853",
+        "address" : "Maharashtra, India",
+        "contactNo" : "040-23231380"
+},
+{
+        "_id" : ObjectId("5f7064a4bb3933408b396d96"),
+        "hId" : "H3",
+        "name" : "Ahmedabad Civil Hospital",
+        "location" : "23.053967, 72.603844",
+        "address" : "Ahmedabad, Gujarat, India",
+        "contactNo" : "040-23231380"
+},
+{
+        "_id" : ObjectId("5f7064a4bb3933408b396d97"),
+        "hId" : "H4",
+        "name" : "Delhi Heart Hospital",
+        "location" : "28.653229, 77.308601",
+        "address" : "Jagriti Enclave, Anand Vihar, Delhi, India",
+        "contactNo" : "040-23231380"
+},
+{
+        "_id" : ObjectId("5f7064a4bb3933408b396d98"),
+        "hId" : "H5",
+        "name" : "Primary Health Centre",
+        "location" : "112.571047, 77.001183",
+        "address" : "Gejjalagere, Karnataka, India",
+        "contactNo" : "040-23231380"
+},
+{
+        "_id" : ObjectId("5f70748af1b0b7257c410c75"),
+        "hId" : "H6",
+        "name" : "Asilo Hospital",
+        "location" : "15.589379, 73.816574",
+        "address" : "Mapusa, Goa, India",
+        "contactNo" : "040-23231380"
+},
+{
+        "_id" : ObjectId("5f70750eb4b68a2e248d2dfd"),
+        "hId" : "H6",
+        "name" : "Asilo Hospital",
+        "location" : "15.589379, 73.816574",
+        "address" : "Mapusa, Goa, India",
+        "contactNo" : "040-23231380"
+},
+{
+        "_id" : ObjectId("5f7075850bcecf141451bae1"),
+        "hId" : "H6",
+        "name" : "Asilo Hospital",
+        "location" : "15.589379, 73.816574",
+        "address" : "Mapusa, Goa, India",
+        "contactNo" : "040-23231380"
+},
+{
+        "_id" : ObjectId("5f70b51ebc894d1c408595f4"),
+        "hId" : "H6",
+        "name" : "Asilo Hospital",
+        "location" : "15.589379, 73.816574",
+        "address" : "Mapusa, Goa, India",
+        "contactNo" : "040-23231380"
+}])
+db.ventilaro.inserMany([{
+        "_id" : ObjectId("5f70b36822ca9b863b72ed10"),
+        "hId" : "H2",
+        "ventilatorId" : "H2V1",
+        "status" : "occupied",
+        "name" : "Ruby Hall Clinic Wanowrie"
+},
+{
+        "_id" : ObjectId("5f70b36822ca9b863b72ed11"),
+        "hId" : "H2",
+        "ventilatorId" : "H2V2",
+        "status" : "in-maintenance",
+        "name" : "Ruby Hall Clinic Wanowrie"
+},
+{
+        "_id" : ObjectId("5f70b36822ca9b863b72ed12"),
+        "hId" : "H2",
+        "ventilatorId" : "H2V3",
+        "status" : "occupied",
+        "name" : "Ruby Hall Clinic Wanowrie"
+},
+{
+        "_id" : ObjectId("5f70b36822ca9b863b72ed13"),
+        "hId" : "H3",
+        "ventilatorId" : "H3V1",
+        "status" : "in-maintenance",
+        "name" : "Ahmedabad Civil Hospital"
+},
+{
+        "_id" : ObjectId("5f70b36822ca9b863b72ed14"),
+        "hId" : "H3",
+        "ventilatorId" : "H3V2",
+        "status" : "occupied",
+        "name" : "Ahmedabad Civil Hospital"
+},
+{
+        "_id" : ObjectId("5f70c42022ca9b863b72ed17"),
+        "hId" : "H3",
+        "ventilatorId" : "H3V3",
+        "status" : "available",
+        "name" : "Ahmedabad Civil Hospital"
+},
+{
+        "_id" : ObjectId("5f7156bfc8ed2a1eb4531692"),
+        "hId" : "H1",
+        "ventilatorId" : "H1V3",
+        "status" : "available",
+        "name" : "Apollo hospital"
+},
+{
+        "_id" : ObjectId("5f71571c790d832a6460ef99"),
+        "hId" : "H1",
+        "ventilatorId" : "H1V4",
+        "status" : "available",
+        "name" : "Apollo hospital"
+},
+{
+        "_id" : ObjectId("5f71599230167008ec331cbb"),
+        "hId" : "H1",
+        "ventilatorId" : "H1V1",
+        "status" : "in-maintenance",
+        "name" : "Apollo hospital"
+},
+{
+        "_id" : ObjectId("5f71f27425935c4f2848d0ad"),
+        "hId" : "H1",
+        "ventilatorId" : "H1V5",
+        "status" : "available",
+        "name" : "Apollo hospital"
+},
+{
+        "_id" : ObjectId("5f7365ddbf26853d48a8bae4"),
+        "hId" : "H1",
+        "ventilatorId" : "H1V2",
+        "status" : "in-maintenance",
+        "name" : "Apollo hospital"
+},
+{
+        "_id" : ObjectId("5f76b17c56b55540bce2bbe9"),
+        "hId" : "H2",
+        "ventilatorId" : "H2V4",
+        "status" : "available",
+        "name" : "Ruby Hall Clinic Wanowrie"
+}]);
